@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+h2 {
+  font-size: 45px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.search-blog {
+  display: flex;
+  margin: 48px 22px 40px 222px;
+  gap: 12px;
+  text-align: center;
+  align-items: center;
+  background-color: #17171a;
+  transition: border 0.3s ease;
+  border-radius: 15px;
+  border: none;
+  padding: 12px 18px;
+  width: 72%;
+}
+
+header .search-blog:focus-within {
+  border: 2px solid #e07b67;
+}
+body {
+  background-color: #191920;
+}
+header {
+  width: 100%;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  padding: 60px;
+  background-color: #202024;
+}
+input {
+  border: 1px solid #17171a;
+  background-color: #17171a;
+  padding: 1rem 1.2rem;
+  color: #afabb6;
+  font-size: 25px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  color: #afabb6;
+  font-size: 25px;
+}
+
+#posts span,
+#posts h3,
+#posts p {
+  display: block;
+  margin-bottom: 2px;
+}
+
+h3 {
+  color: #ffff;
+  font-size: 24px;
+}
+.post-blog {
+  color: #afabb6;
+}
+p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+span {
+  color: #e07b67;
+}
+
+#posts {
+  background-color: #202024;
+  max-width: 70%;
+  height: 230px;
+  margin: 0 0 auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #202024;
+}
+
+.icon-heart {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 27px;
+  fill: #202024;
+  stroke: #e07b67;
+  stroke-width: 7;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+.icon-heart:hover {
+  fill: #e07b67;
+}
+.container-principal {
+  position: relative;
+
+  padding: 2.5rem 1.5rem;
+
+  left: 10%;
+}
+
+footer {
+  text-align: center;
+}
