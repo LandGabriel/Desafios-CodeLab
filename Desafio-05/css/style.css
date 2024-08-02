@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900&display=swap");
+
+:root {
+  --brand-color: #f1a5b1;
+  --dark: #0b0a0a;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo", sans-serif;
+  background-image: url("/Desafio-05/img/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Andada Pro", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo-container img {
+  width: 150px;
+  opacity: 0.6;
+}
+
+.icons-links {
+  display: flex;
+  gap: 15px;
+}
+
+.icons-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  background-color: #ffffff33;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.social-link img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 80px;
+  position: relative;
+}
+
+.container-app {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.container-app p {
+  max-width: 380px;
+  font-size: 16px;
+  line-height: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+h3 {
+  margin: 0;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.image-container {
+  margin-left: 20px;
+}
+
+.image-container img {
+  max-width: 70%;
+  height: auto;
+  filter: brightness(0.9);
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 0 9px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.watch-now {
+  background-color: var(--brand-color);
+  color: var(--dark);
+}
+
+.watch-now svg {
+  width: 20px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.watch-now:hover {
+  background-color: #e48c9a;
+  transform: scale(1.05);
+}
+
+.watch-now svg path {
+  fill: var(--dark);
+}
+
+.trailer {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--brand-color);
+}
+
+.trailer:hover {
+  background-color: var(--brand-color);
+  color: var(--dark);
+  transform: scale(1.05);
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Ajustes para 834px de largura */
+@media (max-width: 834px) {
+  header {
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .logo-container img {
+    width: 100px;
+  }
+
+  .icons-links {
+    gap: 25px;
+    margin-right: 100px;
+  }
+
+  .social-link {
+    width: 30px;
+    height: 30px;
+  }
+
+  .social-link img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .container-app {
+    padding: 15px;
+  }
+
+  .container-app h1 {
+    font-size: 2.8em;
+  }
+
+  .container-app p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-container button {
+    padding: 8px 10px;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .watch-now svg {
+    width: 16px;
+    height: 18px;
+    margin-right: 4px;
+  }
+  .button-container button {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .button-container {
+    gap: 28px;
+  }
+  .watch-now svg {
+    width: 14px;
+    height: 16px;
+    margin-right: 3px;
+  }
+}
+
+/* Ajustes para 375px de largura */
+@media (max-width: 375px) {
+  header {
+    padding: 15px;
+  }
+
+  .logo-container img {
+    width: 80px;
+  }
+
+  #logo-studio {
+    opacity: 1.5;
+
+    text-align: center;
+  }
+  .icons-links {
+    display: none;
+  }
+
+  .social-link {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social-link img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .container-app {
+    padding: 10px;
+  }
+
+  .container-app h1 {
+    font-size: 2em;
+  }
+
+  .container-app p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .button-container button {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .button-container {
+    gap: 28px;
+  }
+  .watch-now svg {
+    width: 14px;
+    height: 16px;
+    margin-right: 3px;
+  }
+}

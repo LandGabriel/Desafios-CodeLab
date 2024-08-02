@@ -5,8 +5,8 @@ Na tabela abaixo você encontra todos os desafios concluídos até o momento.
 
 ## Desafios Concluídos 🏆
 
-| Status | Desafio | Nome       | Demo                                            | Repositório                                                             | Tecnologias Utilizadas           |
-| :----: | :-----: | :--------: | :---------------------------------------------: | :--------------------------------------------------------------------: | :------------------------------: |
-|   ✅   |   01    | Blog       | [Acessar](https://desafio-iurecode-01.vercel.app/) | [Acessar](https://github.com/LandGabriel/Desafios-CodeLab/tree/main/Desafio-01) | Html, Css e JavaScript |
-|   ✅   |   02    | JordanShoes| [Acessar](https://desafio-iurecode-02-jordan.vercel.app/) | [Acessar](https://github.com/LandGabriel/Desafios-CodeLab/tree/main/Desafio-02) | Html e Css |
-|   ⚠️   |   03    | TechBlog   | Em breve                                       | Em breve                                                               | Em desenvolvimento                         |
+| Status | Desafio |    Nome     |                           Demo                            |                                   Repositório                                   | Tecnologias Utilizadas |
+| :----: | :-----: | :---------: | :-------------------------------------------------------: | :-----------------------------------------------------------------------------: | :--------------------: |
+|   ✅   |   01    |    Blog     |    [Acessar](https://desafio-iurecode-01.vercel.app/)     | [Acessar](https://github.com/LandGabriel/Desafios-CodeLab/tree/main/Desafio-01) | Html, Css e JavaScript |
+|   ✅   |   02    | JordanShoes | [Acessar](https://desafio-iurecode-02-jordan.vercel.app/) | [Acessar](https://github.com/LandGabriel/Desafios-CodeLab/tree/main/Desafio-02) |       Html e Css       |
+|   ⚠️   |   03    |  TechBlog   |                         Em breve                          |                                    Em breve                                     |   Em desenvolvimento   |
