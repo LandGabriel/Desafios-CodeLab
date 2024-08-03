@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Archivo", sans-serif;
-  background-image: url("/Desafio-05/img/wallpaper.png");
+  background-image: url("https://raw.githubusercontent.com/LandGabriel/Desafios-CodeLab/main/Desafio-05/img/wallpaper.png");
   background-size: cover;
   background-position: center;
   color: var(--white);
